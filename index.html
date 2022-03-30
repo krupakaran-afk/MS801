@@ -7,8 +7,8 @@
   <title>Prism Art Gallery</title>
   <link rel="stylesheet" href="css/styles.css">
   <style>
-    div.menu {
-  background-color: grey;
+div.menu {
+  background-color: none;
   overflow: auto;
   text-align: center;
 }
@@ -22,7 +22,7 @@ div.menu a {
 }
 
 h1 {
-    color: red;
+    color: black;
     text-align: center;
 }
 
@@ -30,12 +30,14 @@ h1 {
 body {
   font-family: Verdana, sans-serif;
   margin:0;
-  background-image: url('happiest-sites.jpg');
+  background-image: url('images/happiest-sites.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
 }
-img {vertical-align: center;}
+img {vertical-align: middle;}
 
 .slideshow {
-  max-width: 200px;
+  max-width: 300px;
   position: relative;
   margin: auto;
 }
@@ -88,9 +90,10 @@ img {vertical-align: center;}
   transition: background-color 0.6s ease;
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+@@keyframes fade {
+
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 /* Fading animation */
@@ -125,6 +128,39 @@ img {vertical-align: center;}
 .active {
     background-color: #04AA6D;
 }
+
+/*Search bar css code*/
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .menu .search-container {
+    float: none;
+  }
+  .menu a, .menu input[type=text], .menu .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .menu input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
   </style>
 </head>
 <body>
@@ -138,6 +174,12 @@ img {vertical-align: center;}
   <a href="#Gallerymap">Gallery Map</a>
   <a href="#contactus">Contact Us</a>
   <a href="#visitus">Visit Us</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
   <br>
 </div>
       <p>Prism Art Gallery is a national cultural institution located in a ignificant heritage building in the heart of Galway city dedicated to the visual arts, both historcal and contemporary.
@@ -150,44 +192,40 @@ img {vertical-align: center;}
           <span class="dot" onclick="currentSlide(5)"></span>
           <span class="dot" onclick="currentSlide(6)"></span>
         </div>
-
 <div class="mySlides">
   <div class="numbertext">1/6</div>
-  <img src="images/Artist1.png" style="width:10%">
+  <img src="images/painting1.png" style="width:10%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">2/6</div>
-  <img src="images/image2.png" style="width:10%">
+  <img src="images/painting2.png" style="width:10%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">3/6</div>
-  <img src="images/image3.png" style="width:10%">
+  <img src="images/painting3.png" style="width:10%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">4/6</div>
-  <img src="images/image4.png" style="width:10%">
+  <img src="images/painting4.png" style="width:10%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">5/6</div>
-  <img src="images/image5.png" style="width:10%">
+  <img src="images/painting5.png" style="width:10%">
 </div>
 
 <div class="mySlides">
   <div class="numbertext">6/6</div>
-  <img src="images/image6.png" style="width:10%">
+  <img src="images/painting6.png" style="width:10%">
 </div>
 <div>
 <a class="prev" onclick="plusSlides(-1)"></a>
 <a class="next" onclick="plusSlides(1)"></a>
 </div>
-
 <br>
-
-
 
 </body>
 </html>
