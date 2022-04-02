@@ -1,5 +1,4 @@
 
-<link rel="stylesheet" href="css/responsiveGrid.css">
 
 
 div.menu {
@@ -31,10 +30,10 @@ body {
 .image{
   opacity: 1;
   display: block;
-  width: 10%;
+  width: 20%;
   height: auto;
-  transition: .5s ease;
-  padding: 200px;
+  transition: .1s ease;
+  padding: 100px;
   backface-visibility: hidden;
 }
 
