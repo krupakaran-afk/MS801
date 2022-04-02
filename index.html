@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Prism Art Gallery</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
-div.menu {
+  div.menu {
     background-color: none;
     overflow: auto;
     text-align: center;
   }
-
   div.menu a {
     display: inline-block;
     color: white;
@@ -20,18 +20,15 @@ div.menu {
     padding: 14px;
     text-decoration: none;
   }
-
   h1 {
       color: black;
       text-align: center;
   }
-
   body {
     font-family: Verdana, sans-serif;
     margin:0;
     background-image: url('images/happiest-sites.jpg');
     background-repeat: no-repeat;
-
   }
   .image{
     opacity: 1;
@@ -42,7 +39,6 @@ div.menu {
     padding: 100px;
     backface-visibility: hidden;
   }
-
   .middle {
     transition: .5s ease;
     opacity: 1;
@@ -52,21 +48,18 @@ div.menu {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
-
   .wrapper:hover .image {
     opacity: 0.3;
   }
-
   .wrapper:hover .middle {
     opacity: 1;
   }
-
   .content{
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-
   }
   .text {
     background-color: #04AA6D;
@@ -74,20 +67,37 @@ div.menu {
     font-size: 16px;
     padding: 16px 32px;
   }
-
   .wrapper{
-      width: 20%;
-      display: flex;
-      animation: slide 10s infinite;
-      grid-template-columns: -webkit-max-content 1fr 1fr;
+   width: 20%;
+   display: flex;
+   animation: slide 10s infinite;
+   grid-template-columns: -webkit-max-content 1fr 1fr;
    grid-template-columns: max-content 1fr 1fr;
    grid-template-areas:
   }
 
+  .wrapper .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.wrapper .btn:hover {
+  background-color: black;
+}
   img{
       width: 50%;
   }
-
   @keyframes slide{
       0%{transform: translateX(0);}
       25%{transform: translateX(0);}
@@ -99,6 +109,9 @@ div.menu {
       100%{transform: translate(-300%);}
   }
   /*Search bar css code*/
+  .fa-search {
+
+  }
    .search-container button {
     float: right;
     padding: 6px 10px;
@@ -109,32 +122,31 @@ div.menu {
     border: none;
     cursor: pointer;
   }
-
   .menu .search-container button:hover {
     background: #ccc;
   }
-
   @media screen and (max-width: 600px) {
     .menu .search-container {
       float: none;
-    }
+  }
     .menu a, .menu input[type=text], .menu .search-container button {
       float: none;
       display: block;
       text-align: left;
       width: 100%;
       margin: 0;
-      padding: 14px;
+      padding: 14%;
     }
     .menu input[type=text] {
       border: 1px solid #ccc;
     }
   }
-
   .footer h7 {
-    font-style: normal;
- grid-area: footer;
- color: white;
+   grid-area: footer;
+   color:black;
+   text-decoration-style: wavy;
+   font-weight: bolder;
+   font-size:140%;
 }
 @media screen and (min-width: 400px) {
 body{
@@ -165,44 +177,44 @@ body{
 }
 }
 .aside h2 {
-color: white;
+color:black;
 text-align: left;
 text-transform: full-width;
 font-size: 20px;
 }
 .header1 h3 {
-color: white;
-font-size: 20px;
-
+color:black;
+font-size: 200%;
+text-align: left;
+padding-right: 200
 }
 .aside h3 {
-color: white;
+color:black;
 text-align: right;
 padding-left: 600px;
 font-size: 20px;
 }
 
-
 .aside1 h4 {
-color: white;
+color:black;
 text-align: right;
-text-transform: full-width;
 font-size: 20px;
 }
 
 .aside h5 {
-color: white;
+color:black;
 text-align: right;
-font-size: 20px;
-padding-left: 400px;
+font-size: 140%;
+padding-left: 100%;
 }
 .container {
 padding: 10px;
 }
+
 .header h6 {
-color: white;
+color:black;
 grid-area: header;
-font-size: 20px;
+font-size: 140%;
 font-style: normal;
 text-decoration-line: underline;
 text-decoration-style: solid;
@@ -212,12 +224,61 @@ text-align: left;
 grid-area: menu;
 }
 
+/*code for social media icons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
   </style>
 </head>
 <body>
-
   <h1>Prism Art Gallery</h1>
-
 <div class="menu">
   <a href="#home">Home</a>
   <a href="#eventcalendar">Event Calendar</a>
@@ -255,14 +316,26 @@ grid-area: menu;
 
 <div class="wrapper">
   <img src="images/painting1.png"  class="image" style="width:100%">
+  <button class="btn">More Info..</button>
   <img src="images/painting2.png"  class="image" style="width:100%">
+  <button class="btn">More Info..</button>
   <img src="images/painting3.png"  class="image" style="width:100%">
+  <button class="btn">More Info..</button>
   <img src="images/painting4.png"  class="image" style="width:100%">
+  <button class="btn">More Info..</button>
   <img src="images/painting5.png"  class="image" style="width:100%">
+  <button class="btn">More Info..</button>
   <img src="images/painting6.png"  class="image" style="width:100%">
-  <div class= "middle">
-    <div class ="text">More Info</div>
+  <button class="btn">More Info..</button>
+
 </div>
 </div>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
 </body>
 </html>
