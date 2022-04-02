@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Prism Art Gallery</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <style>
+
+<link rel="stylesheet" href="css/responsiveGrid.css">
+
+
 div.menu {
   background-color: none;
   overflow: auto;
@@ -63,7 +58,6 @@ body {
 }
 
 .content{
-
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -80,6 +74,9 @@ body {
     width: 20%;
     display: flex;
     animation: slide 10s infinite;
+    grid-template-columns: -webkit-max-content 1fr 1fr;
+ grid-template-columns: max-content 1fr 1fr;
+ grid-template-areas:
 }
 
 img{
@@ -128,47 +125,3 @@ img{
     border: 1px solid #ccc;
   }
 }
-  </style>
-</head>
-<body>
-
-  <h1>Prism Art Gallery</h1>
-
-<div class="menu">
-  <a href="#home">Home</a>
-  <a href="#eventcalendar">Event Calendar</a>
-  <a href="#aboutus">About Us</a>
-  <a href="#Openinghours">Opening hours</a>
-  <a href="#Gallerymap">Gallery Map</a>
-  <a href="#contactus">Contact Us</a>
-  <a href="#visitus">Visit Us</a>
-
-<div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-</div>
-  <br>
-</div>
-<div class="content">
-      <p>Prism Art Gallery is a national cultural institution located in a significant heritage building in the heart of Galway city dedicated to the visual arts, both historcal and contemporary.
-        The gallery's collection comprises over 2500 works, ranging from 18th century Irish paintings.</p>
-      </div>
-<div class = "container">
-
-</div>
-
-<div class="wrapper">
-  <img src="images/painting1.png"  class="image" style="width:100%">
-  <img src="images/painting2.png"  class="image" style="width:100%">
-  <img src="images/painting3.png"  class="image" style="width:100%">
-  <img src="images/painting4.png"  class="image" style="width:100%">
-  <img src="images/painting5.png"  class="image" style="width:100%">
-  <img src="images/painting6.png"  class="image" style="width:100%">
-  <div class= "middle">
-    <div class ="text">More Info</div>
-</div>
-</div>
-</body>
-</html>
