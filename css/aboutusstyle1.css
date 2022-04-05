@@ -3,23 +3,30 @@ body{
   color: Black;
   text-align: center;
 }
-header{
-  text-align: center;
-  text-indent:: 20%;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 H1{
   color: black;
-  font-family:American Typewriter, serif;
-  font-size: 10vw;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 5vw;
   text-align: center;
-  background-image: url(https://www.art-mine.com/collectorscorner/wp-content/uploads/2018/06/The-Magic-Hour-2019-Acrylic-on-Canvas-3622-x-5422-3000-Rebecca-Katz.jpg);
+  background-color:Beige ;
+}
+img {
+float: center;
+margin: 5px;
+}
+p {
+text-align: center;
+font-size: 25px;
 }
 H2{
   color: black;
   font-family:American Typewriter, serif;
-
   text-align: center;
-
 }
 .footer{
   background-color: azure;
@@ -32,7 +39,6 @@ text-indent:: 20%;
   padding:0;
   margin: 0;
   box-sizing: border-box;
-
 }
 p{
   margin-bottom: 1rem;
@@ -42,10 +48,8 @@ nav a{
   display: block;
   padding: 10px;
   text-align: center;
-
   color: BLACK;
   text-decoration: none;
-
 }
 nav li{
   list-style: none;
@@ -59,7 +63,6 @@ nav a:hover{
 background-color: black;
 color: pink;
 }
-
 @media screen and (min-width: 600px) {
   nav ul {
     display: flex;
