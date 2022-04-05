@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="C:\Users\hp\OneDrive\Documents\GitHub\MS801\css\ContactUs.css">
   <title>Contact Us</title>
   <style>
     div.menu {
@@ -24,149 +24,127 @@
         text-align: center;
     }
     body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url('images/background.jpg');
-  background-repeat: no-repeat;
-  background-size:cover;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
 
-* {
-  box-sizing: border-box;
+    * {
+    box-sizing: border-box;
 
-}
+    }
 
-/* Style inputs */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
+    /* Style inputs */
+    input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
 
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
+    input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
 
-/* Style code for container/contact section */
-.container {
-  padding: 10px;
-}
+    /* Style code for container/contact section */
+    .container {
+    padding: 10px;
+    }
 
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
+    .column {
+    float: left;
+    width: 50%;
+    margin-top: 2px;
+    padding: 20px;
+    }
 
-}
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+    @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
-  }
-}
+    }
+    }
+    /*code for social media icons*/
 
-.fa-search {
+    .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
 
-}
- .search-container button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-.menu .search-container button:hover {
-  background: #ccc;
-}
-@media screen and (max-width: 600px) {
-  .menu .search-container {
-    float: none;
-}
-  .menu a, .menu input[type=text], .menu .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14%;
-  }
-  .menu input[type=text] {
-    border: 1px solid #ccc;
-  }
-}
-/*code for social media icons*/
+    .fa:hover {
+    opacity: 0.7;
+    }
 
-.fa {
-padding: 20px;
-font-size: 30px;
-width: 30px;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;
-border-radius: 50%;
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
 
-.fa:hover {
-  opacity: 0.7;
-}
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
 
-.fa-facebook {
-background: #3B5998;
-color: white;
-}
+    .fa-google {
+    background: #dd4b39;
+    color: white;
+    }
 
-.fa-twitter {
-background: #55ACEE;
-color: white;
-}
+    .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    }
 
-.fa-google {
-background: #dd4b39;
-color: white;
-}
+    .fa-youtube {
+    background: #bb0000;
+    color: white;
+    }
 
-.fa-linkedin {
-background: #007bb5;
-color: white;
-}
+    .fa-instagram {
+    background: #125688;
+    color: white;
+    }
 
-.fa-youtube {
-background: #bb0000;
-color: white;
-}
+    .fa-pinterest {
+    background: #cb2027;
+    color: white;
+    }
+    .contact{
+    font : 18px/20px, Arial,Helvetica, sans-serif;
+    }
+    .card{
+    padding: 1rem;
+    height: 5rem;
+    }
 
-.fa-instagram {
-background: #125688;
-color: white;
-}
-
-.fa-pinterest {
-background: #cb2027;
-color: white;
-}
-
+    .map-responsive iframe{
+      height: 50%;
+      width: 50%;
+      position:absolute;
+    }
   </style>
 </head>
 <body>
@@ -180,21 +158,17 @@ color: white;
   <a href="ContactUs.html">Contact Us</a>
   <a href="#visitus">Visit Us</a>
 
-<div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-</div>
   <div class="container">
     <div style="text-align:center">
       <h2>Contact Us</h2>
       <p>You can reach out to us by our helpline or leave us a message.</p>
     </div>
-    <div class="row">
-      <div class="column">
-        <img src="images/contactUs.png" style="width:69%">
+    <div class="map-responsive">
+      <div class="card">
+        <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.8274916783425!2d-9.0486787!3d53.2747105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96ef7ce9c957%3A0xc9b451744a91bbfe!2sEyre%20Square%2C%20Galway!5e0!3m2!1sen!2sie!4v1649164862442!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+          </iframe>
     </div>
+  </div>
     <div class="column">
       <form action="action_page.php">
         <label for="firstname">First Name:</label>
@@ -222,6 +196,18 @@ color: white;
         <textarea id="subject" name="subject" placeholder="Enter text here..." style="height:180px"></textarea>
         <input type="submit" value="Submit">
       </form>
+      <div class="contact">
+        <div class="card">
+          <p>Prism Art Gallery,<br>
+            Eyre Square,<br>
+            Galway
+          </p>
+      <div class="contact">
+        <div class="card">
+          <p><strong>Tel:</strong>&nbsp;+353 (0) 89 873 972<br>
+          <strong>Email:</strong> <a href="contact.prismartgallery.ie">contact.prismartgallery.ie</a></p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
