@@ -19,9 +19,8 @@
       padding: 14px;
       text-decoration: none;
     }
-    h1 {
-        color: black;
-        text-align: center;
+    header {
+
     }
     body {
     font-family: Arial, Helvetica, sans-serif;
@@ -32,7 +31,6 @@
 
     * {
     box-sizing: border-box;
-
     }
 
     /* Style inputs */
@@ -81,64 +79,14 @@
     margin-top: 0;
     }
     }
-    /*code for social media icons*/
-
-    .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
-
-    .fa:hover {
-    opacity: 0.7;
-    }
-
-    .fa-facebook {
-    background: #3B5998;
-    color: white;
-    }
-
-    .fa-twitter {
-    background: #55ACEE;
-    color: white;
-    }
-
-    .fa-google {
-    background: #dd4b39;
-    color: white;
-    }
-
-    .fa-linkedin {
-    background: #007bb5;
-    color: white;
-    }
-
-    .fa-youtube {
-    background: #bb0000;
-    color: white;
-    }
-
-    .fa-instagram {
-    background: #125688;
-    color: white;
-    }
-
-    .fa-pinterest {
-    background: #cb2027;
-    color: white;
-    }
     .contact{
-    font : 18px/20px, Arial,Helvetica, sans-serif;
+    font : 20px, Arial,Helvetica, sans-serif;
     }
     .card{
     padding: 1rem;
     height: 5rem;
     }
+    /*code for social media icons*/
 
     .map-responsive iframe{
       height: 50%;
@@ -148,7 +96,8 @@
   </style>
 </head>
 <body>
-  <h1>Prism Art Gallery</h1>
+  <div class="header">
+    <img src="images/MainLogo.png"  class="image" style="width:17%">
 <div class="menu">
   <a href="index.html">Home</a>
   <a href="#eventcalendar">Event Calendar</a>
@@ -171,7 +120,9 @@
   </div>
     <div class="column">
       <form action="action_page.php">
+        <div style="text-align:left">
         <label for="firstname">First Name:</label>
+        <div style="text-align: left"></div>
         <input type="text" id="fname" name="firstname" placeholder="First name...">
         <label for="lname">Last Name:</label>
         <input type="text" id="lname" name="lastname" placeholder="Last name...">
@@ -193,9 +144,11 @@
           <option value="france">France</option>
         </select>
         <label for="subject">Subject</label>
+        </div>
         <textarea id="subject" name="subject" placeholder="Enter text here..." style="height:180px"></textarea>
         <input type="submit" value="Submit">
       </form>
+      <div style="text-align:left">
       <div class="contact">
         <div class="card">
           <p>Prism Art Gallery,<br>
@@ -218,5 +171,6 @@
 <a href="#" class="fa fa-youtube"></a>
 <a href="#" class="fa fa-instagram"></a>
 <a href="#" class="fa fa-pinterest"></a>
+</div>
 </body>
 </html>
