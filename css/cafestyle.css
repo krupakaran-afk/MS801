@@ -2,6 +2,7 @@ body{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: Black;
   text-align: center;
+  text-indent:: 20%;
 }
 header{
   text-align: center;
@@ -13,6 +14,7 @@ H1{
   font-size: 10vw;
   text-align: center;
   background-color: Beige;
+  text-indent:: 20%;
 }
 H2{
   color: black;
@@ -21,6 +23,7 @@ H2{
   text-align: center;
 
 }
+
 .footer{
   background-color: azure;
 text-decoration: underline;
