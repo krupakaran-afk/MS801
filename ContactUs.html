@@ -4,100 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="C:\Users\hp\OneDrive\Documents\GitHub\MS801\css\ContactUs.css">
+  <link rel="stylesheet" href="css/ContactUs.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Contact Us</title>
-  <style>
-    div.menu {
-      background-color: none;
-      overflow: auto;
-      text-align: center;
-    }
-    div.menu a {
-      display: inline-block;
-      color: black;
-      text-align: center;
-      padding: 14px;
-      text-decoration: none;
-    }
-    header {
-
-    }
-    body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url('images/background.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    }
-
-    * {
-    box-sizing: border-box;
-    }
-
-    /* Style inputs */
-    input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    }
-
-    input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    }
-
-    input[type=submit]:hover {
-    background-color: #45a049;
-    }
-
-    /* Style code for container/contact section */
-    .container {
-    padding: 10px;
-    }
-
-    .column {
-    float: left;
-    width: 50%;
-    margin-top: 2px;
-    padding: 20px;
-    }
-
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-
-    @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-    }
-    }
-    .contact{
-    font : 20px, Arial,Helvetica, sans-serif;
-    }
-    .card{
-    padding: 1rem;
-    height: 5rem;
-    }
-    /*code for social media icons*/
-
-    .map-responsive iframe{
-      height: 50%;
-      width: 50%;
-      position:absolute;
-    }
-  </style>
 </head>
 <body>
   <div class="header">
-    <img src="images/MainLogo.png"  class="image" style="width:17%">
+    <img src="images/MainLogo.png"  class="center" style="width:15%">
+
 <div class="menu">
   <a href="index.html">Home</a>
   <a href="#eventcalendar">Event Calendar</a>
@@ -111,13 +25,14 @@
     <div style="text-align:center">
       <h2>Contact Us</h2>
       <p>You can reach out to us by our helpline or leave us a message.</p>
-    </div>
     <div class="map-responsive">
       <div class="card">
-        <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.8274916783425!2d-9.0486787!3d53.2747105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96ef7ce9c957%3A0xc9b451744a91bbfe!2sEyre%20Square%2C%20Galway!5e0!3m2!1sen!2sie!4v1649164862442!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-          </iframe>
+        <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.8274916783425!2d-9.0486787!3d53.2747105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96ef7ce9c957%3A0xc9b451744a91bbfe!2sEyre%20Square%2C%20Galway!5e0!3m2!1sen!2sie!4v1649164862442!5m2!1sen!2sie" width="100;" height="350;" style="border:0;"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
   </div>
+</div>
+
     <div class="column">
       <form action="action_page.php">
         <div style="text-align:left">
@@ -131,46 +46,49 @@
         <br>
         <br>
         <label for="country">Country:</label>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-          <option value="india">India</option>
-          <option value="england">England</option>
-          <option value="germany">Germany</option>
-          <option value="italy">Italy</option>
-          <option value="ireland">Ireland</option>
-          <option value="brazil">Brazil</option>
-          <option value="france">France</option>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="india">India</option>
+            <option value="england">England</option>
+            <option value="germany">Germany</option>
+            <option value="italy">Italy</option>
+            <option value="ireland">Ireland</option>
+            <option value="brazil">Brazil</option>
+            <option value="france">France</option>
         </select>
-        <label for="subject">Subject</label>
+          <label for="subject">Subject</label>
         </div>
         <textarea id="subject" name="subject" placeholder="Enter text here..." style="height:180px"></textarea>
-        <input type="submit" value="Submit">
+          <input type="submit" value="Submit">
       </form>
       <div style="text-align:left">
-      <div class="contact">
-        <div class="card">
-          <p>Prism Art Gallery,<br>
-            Eyre Square,<br>
-            Galway
-          </p>
-      <div class="contact">
-        <div class="card">
-          <p><strong>Tel:</strong>&nbsp;+353 (0) 89 873 972<br>
-          <strong>Email:</strong> <a href="contact.prismartgallery.ie">contact.prismartgallery.ie</a></p>
+        <div class="contact">
+          <div class="card">
+            <p>Prism Art Gallery,<br>
+              Eyre Square,<br>
+              Galway
+            </p>
+<div class="contact">
+  <div class="card">
+    <p><strong>Tel:</strong>&nbsp;+353 (0) 89 873 972<br>
+      <strong>Email:</strong> <a href="info@prismartgallery.ie">info@prismartgallery.ie</a></p>
         </div>
       </div>
     </div>
   </div>
 </div>
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-google"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-youtube"></a>
-<a href="#" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-pinterest"></a>
+
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-pinterest"></a>
+    </div>
+  </div>
 </div>
 </body>
 </html>
