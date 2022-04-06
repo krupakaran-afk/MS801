@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-} 
+}
 nav{
   display: flex;
   height: 80px;
@@ -15,6 +15,12 @@ nav{
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
+}
+.footer{
+  background-color: azure;
+text-decoration: underline;
+
+ text-align: center;
 }
 nav .logo{
   color: #fff;
@@ -120,6 +126,7 @@ input[type="checkbox"]{
   font-weight: 700;
 }
 
+
 .homePageImage {
 	  width:400%;
 	  height:400px;
@@ -171,3 +178,4 @@ input[type="checkbox"]{
     font-size: 22px;
     font-weight: bold;
 }
+
