@@ -21,29 +21,24 @@ H2{
 }
 
 img{
-  width:100%;
+  width:89%;
 }
 p .mainContent{
   width:100%;
 }
-.exhibitionIMG{
+.cafeIMG{
   display: flex;
-  margin-right: 15px;
   width: 100%;
+    padding: 50px;
 }
 @media screen and (max-width: 562px){
-  .exhibitionHolder {
-      flex-direction: column;
-  }
-  .exhibitionContainer{
+
+  .cafeIMG{
     display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .exhibitionIMG{
-    display: flex;
-    margin-right: 15px;
+
     width: 100%;
+    padding: 50px;
+
   }
 
 }
