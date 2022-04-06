@@ -58,17 +58,10 @@ background-color: #45a049;
 }
 
 /* Style code for container/contact section */
-.container {
-padding: 10px;
-}
-
 .column {
 float : left;
 width: 50%;
-margin-top: 6px;
-padding: 20px;
 }
-
 .row:after {
 content: "";
 display: table;
@@ -81,56 +74,6 @@ width: 100%;
 margin-top: 0;
   }
 }
-/*code for social media icons*/
-
-.fa {
-padding: 20px;
-font-size: 30px;
-width: 30px;
-
-text-decoration: none;
-margin: 5px 2px;
-border-radius: 50%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-background: #3B5998;
-color: white;
-}
-
-.fa-twitter {
-background: #55ACEE;
-color: white;
-}
-
-.fa-google {
-background: #dd4b39;
-color: white;
-}
-
-.fa-linkedin {
-background: #007bb5;
-color: white;
-}
-
-.fa-youtube {
-background: #bb0000;
-color: white;
-}
-
-.fa-instagram {
-background: #125688;
-color: white;
-}
-
-.fa-pinterest {
-background: #cb2027;
-color: white;
-}
 
 .contact{
 font : 20px, Arial,Helvetica, sans-serif;
@@ -140,7 +83,13 @@ padding: 1rem;
 height: 5rem;
 }
 .map-responsive iframe{
-  height: 50%;
+  height: 80%;
   width: 50%;
   position:absolute;
+  padding-top: 100px;
+  padding-left: 140px;
+}
+.contact h1{
+  line-height: normal;
+  text-align: left;
 }
