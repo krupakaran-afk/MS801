@@ -20,7 +20,7 @@ body{
 }*/
 
 
-p {
+p .mainContent{
 text-align: center;
 font-size: 25px;
 }
@@ -38,7 +38,7 @@ H2{
   margin: 0;
   box-sizing: border-box;
 }
-p{
+p .mainContent{
   margin-bottom: 1rem;
   text-indent:: 20%;
 }
