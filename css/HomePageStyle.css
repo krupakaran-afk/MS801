@@ -119,3 +119,55 @@ input[type="checkbox"]{
   font-size: 40px;
   font-weight: 700;
 }
+
+.homePageImage {
+	  width:400%;
+	  height:400px;
+	  position:relative;
+}
+
+.eventsInformation{
+  border-color: black;
+	border-top: solid;
+  border-bottom: solid;
+	border-width: medium;
+	align-items: center;
+	justify-content: center;
+  margin: 18px 0px;
+	display: flex;
+}
+
+.eventsInformation p{
+  font-size: 32px;
+}
+
+.homePageSection {
+  flex-direction: column;
+	display: flex;
+  }
+
+.homePageEventsInfo {
+  display: flex;
+  margin: 18px 0px;
+}
+
+.eventsInfoImg {
+  justify-content: center;
+  align-items: center;
+  flex: 4;
+	display: flex;
+  margin-right: 8px;
+}
+
+.eventsInfo {
+    flex: 6;
+    margin-left: 8px;
+}
+
+.titleofEventsInfo{
+   border-bottom: 4px solid saddlebrown;
+}
+.titleofEventsInfo p{
+    font-size: 22px;
+    font-weight: bold;
+}
