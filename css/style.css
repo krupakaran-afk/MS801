@@ -26,6 +26,12 @@ body {
   background-size:auto;
 
 }
+.footer{
+  background-color: azure;
+text-decoration: underline;
+
+ text-align: center;
+}
 .image{
   opacity: 1;
   display: block;

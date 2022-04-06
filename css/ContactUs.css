@@ -25,7 +25,12 @@ background-size:cover;
 * {
 box-sizing: border-box;
 }
+.footer{
+  background-color: azure;
+text-decoration: underline;
 
+ text-align: center;
+}
 /* Style inputs */
 .center{
   display:block;

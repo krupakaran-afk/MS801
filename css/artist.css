@@ -10,7 +10,12 @@
 a {
     color: #000;
 }
+.footer{
+  background-color: azure;
+text-decoration: underline;
 
+ text-align: center;
+}
 .artistName,
 h2,
 .year {
@@ -73,7 +78,7 @@ h2 {
 
 .cardFront {
     z-index: 2;
-   
+
 }
 
 .cardBack {

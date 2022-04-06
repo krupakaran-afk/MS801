@@ -57,7 +57,17 @@
 	opacity: 0;
 	transition: opacity 0.30s;
 }
+<div class="footer">
+	<H2>PRISM ART GALLERY</H2>
+	<P>
+Galway, eyre square, H91EP44 - Florence IT
++353 055 123450 - info@prismartgallery.com</P>
+	<p>© Copyright 2022 | Website design by: Alicia, Janani, Krupakaran,Rohith & Sai </p>
+	<br>
+</div>
 
+</div>
+<div>
 .galleryView .galleryWrap .galleryPictures .gallery .description:hover{
 	opacity: 1;
 }
