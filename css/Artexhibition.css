@@ -91,11 +91,8 @@ p{
   width:100%;
 }
 
-.footer {
-  background-color: #625D5D;
-  border-top-style: solid;
-  color: white;
-  height: 50px;
-  text-align: center;
-  padding-bottom: 15px;
+.footer{
+text-decoration: underline;
+text-indent: 20%;
+text-align: center ;
 }
