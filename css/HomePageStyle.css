@@ -16,10 +16,11 @@ nav{
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
 }
-.footer{
-  background-color: azure;
-text-decoration: underline;
 
+.footer{
+  background-color: #c7bfaa;
+text-decoration: underline;
+text-indent: 20%;
  text-align: center;
 }
 nav .logo{
@@ -120,6 +121,7 @@ input[type="checkbox"]{
   width: 100%;
   padding: 0 30px;
   color: #1b1b1b;
+
 }
 .introduction div{
   font-size: 40px;
@@ -127,10 +129,12 @@ input[type="checkbox"]{
 }
 
 
+
 .homePageImage {
-	  width:400%;
-	  height:400px;
-	  position:relative;
+	margin-top: 150px;
+	margin-left: 30px;
+
+	position:relative;
 }
 
 .eventsInformation{
@@ -178,4 +182,3 @@ input[type="checkbox"]{
     font-size: 22px;
     font-weight: bold;
 }
-
