@@ -26,9 +26,9 @@ nav{
 
 .footer{
   background-color: #c7bfaa;
-text-decoration: underline;
-text-indent: 20%;
+text-decoration: none;
  text-align: center;
+ font-size: 0.8em;
 }
 nav .logo{
   color: #fff;

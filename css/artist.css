@@ -11,13 +11,14 @@ a {
     color: #000;
 }
 
-.footer{
+/*.footer{
   background-color: #c7bfaa;
 text-decoration: underline;
 margin-top: 100px;
 
  text-align: center;
-}
+}*/
+
 .artistName,
 h2,
 .year {
