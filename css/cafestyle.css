@@ -3,6 +3,7 @@ body{
   color: Black;
   text-align: center;
   text-indent:: 20%;
+
 }
 H1{
   color: black;
@@ -21,11 +22,17 @@ H2{
 .footer{
   background-color: azure;
 text-decoration: underline;
-
+text-indent: 20%;
  text-align: center;
 }
 
-nav a{
+}
+
+p{
+  margin-bottom: 1rem;
+  text-indent:: 20%;
+}
+/*nav a{
   display: block;
   padding: 10px;
   text-align: center;
@@ -52,4 +59,4 @@ color: pink;
   nav li {
     flex:1;
   }
-}
+}*/

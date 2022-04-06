@@ -4,12 +4,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 nav{
   display: flex;
   height: 80px;
   width: 100%;
-  background: #0096d3;
+  background: #c7bfaa;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
@@ -28,7 +29,7 @@ nav .logo{
 }
 
 .mainLogo{
-    margin-left: 550px;
+    /*margin-left: 550px;*/
     width: 150px;
 }
 nav ul{
@@ -106,7 +107,7 @@ input[type="checkbox"]{
   nav ul li a.active,
   nav ul li a:hover{
     background: none;
-    color: cyan;
+    color: #c7bfaa;
   }
 }
 .introduction{

@@ -43,8 +43,9 @@ h2 {
 
 .cardContainer {
     display: inline-block;
-    margin-top: 8%;
-    margin-left: 10%;
+    margin-top:15%;
+    margin-left: 11%;
+
 }
 
 .cardContainer:hover .cardFlip {
@@ -55,7 +56,7 @@ h2 {
 .cardFront,
 .cardBack {
     width: 250px;
-    height: 500px;
+    height: 300px;
 }
 
 .cardFlip {
@@ -71,7 +72,7 @@ h2 {
     top: 0;
     left: 0;
     width: 250px;
-    height: 300px;
+    height: 300]px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
