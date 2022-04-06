@@ -18,7 +18,7 @@ nav{
 }
 
 .footer{
-  background-color: #c7bfaa;
+  background-color: azure;
 text-decoration: underline;
 
  text-align: center;
@@ -182,4 +182,3 @@ input[type="checkbox"]{
     font-size: 22px;
     font-weight: bold;
 }
-
