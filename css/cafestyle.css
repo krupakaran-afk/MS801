@@ -30,6 +30,7 @@ text-decoration: underline;
 p{
   margin-bottom: 1rem;
   text-indent:: 20%;
+   text-align: center;
 }
 /*nav a{
   display: block;
