@@ -1,0 +1,67 @@
+*{
+	margin:	0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+}
+
+.galleryView{
+	width: 100%;
+}
+
+.galleryView .galleryWrap{
+	padding-top: 10px;
+}
+
+.galleryView .galleryWrap .galleryPictures{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.galleryView .galleryWrap .galleryPictures .gallery{
+	width: 100%;
+	position: relative;
+}
+
+.galleryView .galleryWrap .galleryPictures .gallery .image{
+	width: 100%;
+}
+
+.galleryView .galleryWrap .galleryPictures .gallery .image img{
+	width: 100%;
+	height: 300px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: block;
+}
+
+.galleryView .galleryWrap .galleryPictures .gallery .description{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding: 15px;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	background: rgba(0,0,0,0.5);
+	color: #ffffff;
+	opacity: 0;
+	transition: opacity 0.30s;
+}
+
+.galleryView .galleryWrap .galleryPictures .gallery .description:hover{
+	opacity: 1;
+}
+
+.galleryView .galleryWrap .galleryPictures .gallery .description p{
+	font-size: 13px;
+}
