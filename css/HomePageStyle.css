@@ -100,7 +100,7 @@ input[type="checkbox"]{
   nav ul li a.active,
   nav ul li a:hover{
     background: none;
-    color: cyan;
+    color: #c7bfaa;
   }
 }
 .introduction{
