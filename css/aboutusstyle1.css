@@ -15,19 +15,19 @@ body{
   text-align: center;
   background-color:Beige ;
 }*/
-img {
-float: center;
-margin: 5px;
-}
+
+
 p {
 text-align: center;
 font-size: 25px;
 }
+
 H2{
   color: black;
   font-family:American Typewriter, serif;
   text-align: center;
 }
+
 .footer{
   background-color: azure;
 text-decoration: underline;
@@ -35,6 +35,7 @@ text-indent:: 20%;
  text-align: center;
   font-size: 10px;
 }
+
 *{
   padding:0;
   margin: 0;
