@@ -1,0 +1,99 @@
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+.container {
+display: grid;
+grid-template-columns: 1fr;
+text-align: center
+}
+
+
+
+body{
+
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.header {
+    border-width: medium;
+    border-color: black;
+    border-bottom: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+@media screen and (max-width: 768px){
+
+  .exhibitionContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .exhibitionIMG{
+    margin-right: 15px;
+    width: 100%;
+  }
+  .exhibition{
+    width:100%;
+  }
+
+  .exhibitionTitle{
+    text-align: center;
+  }
+  .exhibitionHolder {
+      flex-direction: column;
+  }
+}
+
+.exhibitionHolder{
+  display: flex;
+  margin-bottom: 20px;
+}
+.ourExhibition{
+  grid-template-columns:1fr;
+  display: grid;
+  text-align: center;
+  font-size: 25px;
+}
+
+.exhibitionContainer{
+  text-align: left;
+  margin-top: 200px;
+}
+
+.exhibitionIMG{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 4;
+      margin-right: 8px;
+}
+
+.exhibition{
+  padding-bottom: 30px;
+  flex: 6;
+      margin-left: 8px;
+      text-align: center;
+      margin-top: 100px
+}
+.exhibitionTitle{
+  font-weight: bold;
+}
+
+img{
+  width:100%;
+}
+p{
+  width:100%;
+}
+
+.footer{
+text-decoration: underline;
+text-indent: 20%;
+text-align: center ;
+}
