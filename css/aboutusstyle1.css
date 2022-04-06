@@ -45,7 +45,7 @@ p{
   margin-bottom: 1rem;
   text-indent:: 20%;
 }
-nav a{
+/*nav a{
   display: block;
   padding: 10px;
   text-align: center;
@@ -72,4 +72,4 @@ color: pink;
   nav li {
     flex:1;
   }
-}
+}*/
